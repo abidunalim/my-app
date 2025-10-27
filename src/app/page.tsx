@@ -6,6 +6,7 @@ import Card from './components/Card'
 import Footer from './components/Footer'
 import Login from "./login/page";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import link from "next/link";
 
 function Tentang() {
   return (
