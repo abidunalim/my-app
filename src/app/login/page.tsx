@@ -32,13 +32,13 @@ export default function Login() {
           <input
             type="email"
             placeholder="Email"
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 mb-4"
+            className="text-gray-600 w-full border border-gray-300 rounded-lg px-4 py-2 mb-4"
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
             type="password"
             placeholder="Password"
-            className="w-full border border-gray-300 rounded-lg px-4 py-2 mb-6"
+            className="text-gray-600 w-full border border-gray-300 rounded-lg px-4 py-2 mb-6"
             onChange={(e) => setPassword(e.target.value)}
           />
           <button
